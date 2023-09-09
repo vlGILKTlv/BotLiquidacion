@@ -6,7 +6,7 @@ const bot = new Telegraf(token)
 
 bot.start((ctx) => ctx.reply("Porque eres tan puto ricky?"));
 
-bot.help((ctx) => ctx.reply("Aqui puedes ver los detalles"))
+bot.help((ctx) => ctx.reply("Ayuda tu puta madre"))
 
 bot.command("empezar" , (ctx) => ctx.reply("Cuanto vendiste?"))
 
